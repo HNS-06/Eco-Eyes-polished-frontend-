@@ -1,6 +1,6 @@
 import { io } from "socket.io-client";
 
-const SOCKET_URL = "https://echo-eyes-backend.onrender.com";
+const SOCKET_URL = "https://eco-eyes-polished-backend-1.onrender.com/";
 
 const socket = io(SOCKET_URL, {
   transports: ["websocket"],
